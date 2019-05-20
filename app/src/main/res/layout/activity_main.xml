@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/idsignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In "
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"
+        android:background="@drawable/login_gradient"/>
+
+    <Button
+        android:id="@+id/idsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIgn Up"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/login_gradient"/>
+</LinearLayout>

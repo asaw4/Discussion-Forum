@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AskQues"
+    android:orientation="vertical"
+    android:background="#cfd8dc"
+    android:padding="20dp"
+    >
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/question"
+        android:gravity="top"
+        android:background="#eceff1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:hint="Question"
+        android:layout_marginBottom="10dp"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:background="#eceff1"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/ques_description"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:hint="Description"
+        />
+
+    <Button
+        android:id="@+id/ask_ques"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:background="@drawable/gradient_stoke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ask Question" />
+
+</LinearLayout>

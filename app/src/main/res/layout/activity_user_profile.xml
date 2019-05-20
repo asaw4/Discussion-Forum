@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserProfile"
+    android:gravity="center">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/login_gradient"
+        android:src="@mipmap/profile_picture"
+        android:padding="100dp"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="50dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/user_id_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#424242"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp"
+        android:textColor="#616161"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+
+    <LinearLayout
+        android:id="@+id/asked_ques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:text="Asked Question"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textColor="#616161"
+        android:textAlignment="center"/>
+    </LinearLayout>
+
+</LinearLayout>

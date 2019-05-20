@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".ViewQues"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:fillViewport="true">
+
+
+
+            <TextView
+                android:id="@+id/ques_view_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textColor="#616161"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:id="@+id/ques_view_ques"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ques_view_name"
+                android:text="Ques Here"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="#424242"
+                />
+
+            <TextView
+                android:id="@+id/ques_view_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="description"
+                android:textColor="#616161" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/replyLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ques_view_reply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Reply"
+                android:textColor="#424242"
+                android:inputType="textLongMessage" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/add_reply"
+                android:textColor="#ffffff"
+                android:text="Reply"
+                android:background="@drawable/login_gradient"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
